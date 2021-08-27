@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Book List</title>
+</head>
+<body>
+    <header>
+        <h1>JS Book List</h1>
+    </header>
+    <section class="container">
+        <div class="box1">
+            <img src="/images/images.jpg" alt="Book">
+        </div>
+        <div class="box2">
+            <form action="">
+                <label for="name">Title</label>
+                <input type="text" name="name" placeholder="enter the book name" id="name">
+                <label for="author">Author</label>
+                <input type="text" name="author" placeholder="author name" id="author">
+                <label for="year">Year</label>
+                <input type="number" name="year" placeholder="enter the valid year" id="year">
+                <input type="submit" value="Add Book" id="btn">
+            </form>
+        </div>
+    </section>
+    <div class="table">
+        <table id="tb">
+            <tr>
+                <th>Title</th>
+                <th>Author Name</th>
+                <th>Year</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color: black;
+    color: #ddd;
+}
+
+header{
+    text-align: center;
+    margin: 40px 0 0 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .box1{
+    width: 30%;
+    height: 40%;
+}
+
+.container .box2{
+    width: 50%;
+}
+
+label{
+    display: block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+input{
+    margin-left: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+#btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: orange;
+    border: none;
+}
+
+#btn:focus{
+    color: palegoldenrod;
+    background-color: palevioletred;
+}
+
+.table{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.table th,
+.table td{
+    width: 300px;
+    padding: 10px;
+}
+
+/* .table td{
+    border: 1px solid #ddd;
+} */
